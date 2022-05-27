@@ -5,7 +5,7 @@ var = True
 zahl = 0
 while var:
     zahl += 1
-    ip = input("Welche IP-Addresse willst du dauernd pingen: ")
+    ip = input("Which IP-Address do you want to constantly ping: ")
     os.system("ping -n 4 {}".format(ip))
     if zahl == 1:
         while var:
